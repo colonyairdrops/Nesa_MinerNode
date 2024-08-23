@@ -27,9 +27,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
-```bash
-sudo apt-get install -y curl
-```
 - Command to check if jq is installed, If jq is not installed, the script will attempt to install it
 ```bash
 jq --version
@@ -53,6 +50,13 @@ bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootst
 docker ps
 ```
 
-- Done !!
+- To get peer_id run the script again and check the right corner of your screen
+ ```bash
+bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
+```
+
+- Check Node status : https://node.nesa.ai/nodes/YOUR_PEER_ID
+
+- Done !! Feel free to ask queries in telegram channel
 - Telegram - https://t.me/colonyairdrops
 - Youtube - https://www.youtube.com/@ColonyAirdrops
